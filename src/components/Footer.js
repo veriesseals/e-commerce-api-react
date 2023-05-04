@@ -6,6 +6,6 @@ function Footer() {
             <small>&copy; 20xx Veries Seals III. All rights reserved.</small>
         </footer>
     )
-}
+};
 
 export default Footer;

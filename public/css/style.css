@@ -1,0 +1,30 @@
+* {
+    outline: 1px dotted red;
+}
+
+/* Header */
+/* -------------------------------------- */
+.header{
+    color:whitesmoke;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 400px;
+}
+
+.nav-items {
+    display: flex;
+    padding: 75px 0px 20px 0px;
+    gap: 10%;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.featuredsteak{
+    display: flex;
+    width: 310px;
+    margin-left: 225px;
+}
