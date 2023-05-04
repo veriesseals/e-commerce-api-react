@@ -24,8 +24,17 @@ function Header() {
                         </nav>
                     </div>
                 </div>
-                <nav className="nav">
-                </nav>
+                <div className="row">
+                    <div>
+                        <div class="top-icons">
+                            <div id="shoppingDiv">
+                                <div class="shopping-buttons">
+                                    <button type="button" class="btn" id="cartBtn"><span id="cartItems">0</span> items(s) - $<span id="cartSubtotal">0.00</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
         </div>
     )
