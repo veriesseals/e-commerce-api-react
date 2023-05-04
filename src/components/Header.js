@@ -24,6 +24,7 @@ function Header() {
                         </nav>
                     </div>
                 </div>
+                {/* Cart Items */}
                 <div className="row">
                     <div>
                         <div class="top-icons">
