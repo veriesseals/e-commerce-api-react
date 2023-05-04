@@ -17,9 +17,9 @@ function Header() {
                     <div className="col-md-4">
                         <nav className="right-nav">
                             <ul className="nav-items">
-                                <li>Steaks</li>
-                                <li>About</li>
-                                <li>Contact</li>
+                                <li><a href="#">Steaks</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -27,9 +27,6 @@ function Header() {
                 <nav className="nav">
                 </nav>
             </header>
-                    <div>
-                        {/* <img src={FeaturedSteak} className="featuredsteak"/> */}
-                    </div>
         </div>
     )
 };

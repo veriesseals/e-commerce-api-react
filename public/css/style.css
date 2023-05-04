@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px dotted red;
-}
+} */
 
 /* Header */
 /* -------------------------------------- */
@@ -23,8 +23,49 @@
     list-style-type: none;
 }
 
-.featuredsteak{
+.nav-items a {
+    color: whitesmoke;
+    text-decoration:none;
+    
+}
+
+.nav-items a:hover {
+    color: rgb(144, 115, 115);
+    
+}
+
+.nav-items a:active {
+    color: rgb(144, 115, 115);
+    
+}
+
+
+/* Main Content */
+/* ---------------------------------------------- */
+.FeaturedSteak{
     display: flex;
-    width: 310px;
-    margin-left: 225px;
+    width: 696px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Cards */
+/* ---------------------------------------------- */
+.card{
+    width: 200px;
+}
+
+#steakGroup1{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+#steakGroup2{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.btn {
+    text-align: center;
 }

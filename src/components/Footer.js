@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
     return(
-        <footer>
-            <small>&copy; 20xx Veries Seals III. All rights reserved.</small>
+        <footer class="text-center">
+            <small>&copy; E-COMM STEAKS 20xx Veries Seals III. All rights reserved.</small>
         </footer>
     )
 };
