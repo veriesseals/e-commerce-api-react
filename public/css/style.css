@@ -12,13 +12,15 @@
 }
 
 .logo {
+    margin-top: 20px;
     width: 400px;
 }
 
 .nav-items {
     display: flex;
-    padding: 75px 0px 20px 0px;
-    gap: 10%;
+    margin-top: 15px;
+    padding: 75px 20px 20px 0px;
+    gap: 4%;
     justify-content: end;
     list-style-type: none;
 }
@@ -42,14 +44,14 @@
 /* Cart */
 /* ---------------------------------------------- */
 .top-icons{
-    margin-left: 76%;
+    margin-left: 85%;
 }
 
 /* Main Content */
 /* ---------------------------------------------- */
 .FeaturedSteak{
     display: flex;
-    width: 696px;
+    width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
