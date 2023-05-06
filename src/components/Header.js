@@ -18,9 +18,8 @@ function Header() {
                         <nav className="right-nav">
                             <ul className="nav-items">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
                                 <li><a href="#">All Products</a></li>
-                                <li><a href="#">Single Product</a></li>
+                                <li><a href="#">About</a></li>
                             </ul>
                         </nav>
                     </div>

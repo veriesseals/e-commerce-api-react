@@ -20,7 +20,7 @@
     display: flex;
     margin-top: 15px;
     padding: 75px 20px 20px 0px;
-    gap: 4%;
+    gap: 10%;
     justify-content: end;
     list-style-type: none;
 }
@@ -44,7 +44,7 @@
 /* Cart */
 /* ---------------------------------------------- */
 .top-icons{
-    margin-left: 85%;
+    margin-left: 75%;
 }
 
 /* Main Content */
@@ -60,6 +60,7 @@
 /* ---------------------------------------------- */
 .card{
     width: 200px;
+    margin-bottom: 10px;
 }
 
 #steakGroup1{
@@ -83,3 +84,75 @@ footer{
     padding-bottom: 20px;
 }
 
+/* Media Query Breakpoints for Responsive Web Design */
+/* ---------------------------------------------- */
+@media (max-width: 991px) {
+    .nav-items {
+      display: block; /* or any other display value you want to use */
+    }
+}
+@media (max-width: 912px) {
+    .nav-items {
+      display: block; /* or any other display value you want to use */
+    }
+}
+@media (max-width: 768px) {
+    .nav-items {
+      display: block; /* or any other display value you want to use */
+    }
+}
+@media (max-width: 768px) {
+    .nav-items {
+      display: block; /* or any other display value you want to use */
+      margin-left: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+      display: block; /* or any other display value you want to use */
+      margin-left: 10%;
+    }
+}
+@media (max-width: 767px) {
+    .top-icons {
+      margin-left: 35%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .logo {
+        width: 300px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 761px) {
+    .logo {
+        width: 300px;
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 767px) {
+    #steakGroup1,#steakGroup2 {
+        display: block; /* or any other display value you want to use */
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .logo {
+        width: 300px;
+        margin-left: 6%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .top-icons {
+        display: flex;
+        padding-right: 35px;
+    }
+}

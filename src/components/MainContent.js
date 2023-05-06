@@ -10,7 +10,9 @@ import PrimeRib from "./img/primerib.jpeg";
 function MainContent() {
     return (
     <div>
-        <img src={FeaturedSteak} className="FeaturedSteak" />
+        <img src={FeaturedSteak} className="FeaturedSteak" alt="Featured Steak"/>
+
+        <div><hr></hr></div>
 
         <h2 class="col text-center">Welcome to E-COMM. Premiere Online Steak Store</h2>
         {/* Select Your Steak Menu */}
@@ -21,7 +23,7 @@ function MainContent() {
                 <h3>Select your Steak below</h3>
                 </div>
             </div>
-
+            <div><hr></hr></div>
             <div classname="steak-group" id="steakGroup1">
                 {/* Steak Cards */}
                 {/* --------------------------------------------- */}
