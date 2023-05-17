@@ -18,22 +18,10 @@ function Header() {
                         <nav className="right-nav">
                             <ul className="nav-items">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">All Products</a></li>
+                                <li><a href="#">All Favorite Steaks</a></li>
                                 <li><a href="#">About</a></li>
                             </ul>
                         </nav>
-                    </div>
-                </div>
-                {/* Cart Items */}
-                <div className="row">
-                    <div>
-                        <div class="top-icons">
-                            <div id="shoppingDiv">
-                                <div class="shopping-buttons">
-                                    <button type="button" class="btn" id="cartBtn"><span id="cartItems">0</span> items(s) - $<span id="cartSubtotal">0.00</span></button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </header>

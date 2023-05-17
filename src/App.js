@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "./components/Header"
-import MainContent from  "./components/MainContent"
-import Menu from "./components/menu"
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import MainContent from  "./components/MainContent";
+import SteakMealInput from './components/SteakMealInput';
+import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <div>
             <Header />
             <MainContent />
-            <Menu />
+            <SteakMealInput />
             <Footer />
         </div>
     )
